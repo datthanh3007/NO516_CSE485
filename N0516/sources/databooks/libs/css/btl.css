@@ -1,0 +1,130 @@
+ #head{
+	background-color: #87CCB8;
+	padding: 30px,40px;
+	width: 100%;
+	height: 140px;
+}
+body {
+    color: #2e2e2e;
+    font-family: Arial;
+    font-size: 14px;
+    background: #fff;
+}
+
+*{
+	margin: 0px;
+}
+#under{
+background-color: #7BB11D;
+margin-top: 1px;
+width: 100%;
+height: 40px;
+}	
+.as{
+padding: 5px;
+font-weight: bold;
+margin:0px 10px 0px 10px;
+text-decoration: none;
+font-size: 20px;
+color: white;
+
+}
+#head a.ar{
+	float: right ;
+	text-decoration: none;
+}
+
+.search {
+  display: inline-block;
+  position: relative;
+  height: 35px;
+  width: 35px;
+  box-sizing: border-box;
+  margin: 0px 8px 7px 0px;
+  padding: 7px 9px 0px 9px;
+  border: 3px solid #ffffff;
+  border-radius: 25px;
+  transition: all 200ms ease;
+  cursor: text;
+}
+.search:after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 20px;
+  right: -5px;
+  top: 21px;
+  background: #ffffff;
+  border-radius: 3px;
+  transform: rotate(-45deg);
+  transition: all 200ms ease;
+}
+.search.active,.search:hover {
+  width: 200px;
+  margin-right: 0px;
+}
+.search.active:after,.search:hover:after {
+  height: 0px;
+}
+.search input {
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  font-size: 15px;
+  color: inherit;
+  background: transparent;
+  outline-width: 0px;
+}
+#head label.search{
+	float: right;
+	margin-top: 70px;
+	right: 100px;
+}
+
+/*ul li{
+  width: 200px;
+  height: 40px;
+  background-color: #7BB11D;
+  color: white;
+  opacity: .8;  
+  line-height: 40px;
+  text-align: center;
+  font-size: 15px;
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+ul li a:hover{
+background-color: green;
+}
+ul li ul li{
+  display: none;
+}
+ul li:hover ul li{
+  display: block;
+}
+
+
+
+     <div style="float: right; margin-top:10px;margin-right:18px;">
+        <a href="user/register.php" title="ĐĂNG KÝ" class="as">ĐĂNG KÝ </a>
+        <a href="user/login.php" title="ĐĂNG NHẬP" class="as">ĐĂNG NHẬP</a>
+       </div>
+       <div style="float:left;margin-left:20px;margin-top:10px; ">
+         <a href="index.php" title="TRANG CHỦ" class="as">TRANG CHỦ</a>
+         <li> <a href="#" title="SÁCH ĐIỆN TỬ" class="as">SÁCH ĐIỆN TỬ</a> 
+             <ul>
+                <li><a href="#">abcd</a> </li>
+                <li><a href="#">abcd</a> </li>
+                <li><a href="#">abcd</a> </li>
+                <li><a href="#">abcd</a> </li>
+             </ul>
+         </li>        
+         <a href="#" title="SÁCH NÓI"class="as" >SÁCH NÓI</a>
+         <a href="#" title="TRUYỆN TRANH" class="as">TRUYỆN TRANH</a>
+       </div>
+       */
+
